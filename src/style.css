@@ -1,0 +1,112 @@
+ul {
+  padding: 0;
+  margin: 0;
+  clear: both;
+}
+
+li {
+  list-style-type: none;
+  list-style-position: outside;
+  padding: 5px;
+  float: left;
+}
+
+input[type="checkbox"]:not(:checked),
+input[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999%;
+}
+
+input[type="checkbox"] + label {
+  display: inline-block;
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  margin-bottom: 5px;
+}
+
+input[type="checkbox"]:checked + label {
+  border: 1px solid white;
+  color: white;
+  background-color: black;
+}
+
+#movieWraper {
+  margin: 10px;
+  background-color: maroon;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+#rightDiv {
+  margin-left: 10%;
+  margin-top: 8.666%;
+}
+
+#addMovie {
+  background-color: maroon;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+#filterdiv {
+  background-color: maroon;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+#homePage {
+  background-color: black;
+  color: white;
+}
+#UpdateAndDelete {
+  background-color: maroon;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+#searchdiv {
+  background-color: maroon;
+  margin: 10px;
+  margin-top: 20px;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+button {
+  background-color: black;
+  color: rgb(245, 234, 234);
+  font-size: large;
+  height: 60px;
+  width: 100px;
+}
+
+#loginPage {
+  position: fixed;
+  background-color: maroon;
+  padding-top: 60px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: x-large;
+  width: 300px;
+  height: 300px;
+  top: 30%;
+  left: 32%;
+}
+
+#hello {
+  background-color: maroon;
+  padding: 10px;
+  margin: 30px;
+  width: 250px;
+  margin-left: 100px;
+  border-radius: 25px;
+}
+
+#right {
+  padding-left: 20px;
+  padding-top: 10px;
+}
